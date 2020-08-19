@@ -1,0 +1,71 @@
+/* CSS files add styling rules to your content */
+
+.container {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+body {
+  font-family: "Times New Roman", helvetica, arial, sans-serif;
+  margin: 5em;
+  text-align: center;
+}
+
+img {
+  height: 250px;
+  width: 250px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border: 5px solid black;
+  box-shadow: 10px 10px grey;
+}
+
+/*Shoutout to Rama for her inspo of having a text shadow on my fonts!*/
+h1 {
+  font-family: 'Galada', cursive;
+  color: Red;
+  text-shadow: 2px 2px Yellow;
+  font-size: 75px;
+  background-color: orange;
+  line-height: 65px;
+}
+
+h2 {
+  font-family: 'Roboto', sans-serif;
+  margin-top: 2em; 
+  background-color: Red;
+  font-size: 45px;
+   font-style: italic;
+}
+
+h3 {
+  line-height: 16px;
+}
+
+
+button {
+  color: Red;
+  font-family: Times New Roman;
+  font-size: 20px;
+  font-style: italic;
+}
+
+.question {
+  display: flex;
+  margin-top: 2em;
+  text-align: center;
+}
+  
+.answer-choice img {
+  height: 12em;
+  width: 12em;
+  text-align: center;
+}
+
+.answer-choice {
+  padding-left: 1em;
+  padding-right: 1em;
+}
